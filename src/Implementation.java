@@ -101,7 +101,7 @@ Connection conn = JDBCUtils.getConnection();
         try {
            Connection conn = JDBCUtils.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql);
-            pstmt.setInt(1, 2);
+            pstmt.setInt(1, 2git);
             pstmt.executeUpdate();
             System.out.println("Record deleted.");
         } catch (SQLException e) {
